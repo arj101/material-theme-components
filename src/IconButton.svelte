@@ -29,7 +29,7 @@
 
 </script>
 
-<button on:click={click} bind:this={button}>
+<button on:mousedown={click} bind:this={button}>
     <img src={src} alt={alt}>
 </button>
 
@@ -51,6 +51,7 @@
         z-index: 1;
         user-select: none;
         -webkit-user-drag: none;
+		-webkit-user-select: none;
 	}
 	button {
         user-select: none;
@@ -69,6 +70,8 @@
 		align-items: center;
 		justify-content: center;
         overflow: hidden;
+		-webkit-user-select: none;
+
 	}
 	button:focus {
         background-color: #ddd; 

@@ -1,7 +1,6 @@
 <script>
-	import Button from './Button.svelte'
-	import PlayButton from './PlayButton.svelte'
-	import IconButton from './IconButton.svelte'
+	import Button from './Button.svelte';
+	import IconButton from './IconButton.svelte';
 </script>
 
 <div>
@@ -43,7 +42,9 @@
 
 <style>
 	div {
-		width: 80vw;
+		width: 97vw;
+		padding-left: 0.5vw;
+		padding-right: 0.5vw;
 		height: fit-content;
 		display: flex;
 		flex-direction: row;

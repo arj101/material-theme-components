@@ -26,11 +26,14 @@ function click(event) {
 </script>
 
 
-<button bind:this={button} on:click={click}>
+<button bind:this={button} on:mousedown={click}>
 	<slot></slot>
 </button>
 
 <style>
+	slot {
+		-webkit-user-select: none;
+	}
 	button {
 		user-select: none;
 		position: relative;
@@ -44,6 +47,7 @@ function click(event) {
 		font-size: 1.2rem;
 		background-color: #fff;
 		overflow: hidden;
+		-webkit-user-select: none;
 	}
 	button:focus {
     background-color: #ddd; 
