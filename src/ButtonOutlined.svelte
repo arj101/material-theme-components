@@ -40,7 +40,7 @@
 		position: relative;
 		border: none;
 		cursor: pointer;
-		border: 2px solid #aaa;
+		border: 2.1px solid #aaa;
 		padding: 20px;
 		text-transform: uppercase;
 		transition: all 100ms ease;
