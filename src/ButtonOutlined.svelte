@@ -39,7 +39,7 @@
 		position: relative;
 		border: none;
 		cursor: pointer;
-		box-shadow: 0px 2px 3px #55555580;
+		border: 2px solid #aaa;
 		padding: 20px;
 		text-transform: uppercase;
 		transition: all 100ms ease;
@@ -51,8 +51,5 @@
 	}
 	button:focus {
 		background-color: #ddd; 
-	}
-	button:hover {
-		box-shadow: 0px 4px 3px #55555580;
 	}
 </style>

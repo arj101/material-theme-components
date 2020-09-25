@@ -1,47 +1,45 @@
 <script>
 	import Button from './Button.svelte';
 	import IconButton from './IconButton.svelte';
+	import ButtonFlat from './ButtonFlat.svelte';
+	import ButtonOutlined from './ButtonOutlined.svelte';
+	import IconButtonFlat from './IconButtonFlat.svelte';
+	import IconButtonOutlined from './IconButtonOutlined.svelte';
 </script>
 
-<div>
-	<IconButton src='./add.svg' alt=''/>
-	<IconButton src='./crop.svg' alt=''/>
-	<IconButton src='./arrow_forward.svg' alt=''/>
-</div>
+<section>
+	<div>
+		<IconButtonFlat src='./add.svg' alt=''/>
+		<Button>Play</Button>
+		<IconButton src='./chat.svg' alt=''/>
+		<ButtonFlat>Open</ButtonFlat>
+		<IconButton src='./code.svg' alt=''/>
+		<Button>Close</Button>
+	</div>
 
-<div>
-	<Button>Play</Button>
-	<Button>Pause</Button>
-	<Button>Forward</Button>
-</div>
+	<div>
+		<IconButton src='./crop.svg' alt=''/>
+		<Button>Pause</Button>
+		<IconButton src='./chat_bubble.svg' alt=''/>
+		<Button>Save</Button>
+		<IconButtonOutlined src='./http.svg' alt=''/>
+		<Button>Reload</Button>
+	</div>
 
-<div>
-	<IconButton src='./chat.svg' alt=''/>
-	<IconButton src='./chat_bubble.svg' alt=''/>
-	<IconButton src='./chat_bubble_outline.svg' alt=''/>
-</div>
-
-<div>
-	<Button>Open</Button>
-	<Button>Save</Button>
-	<Button>Save as</Button>
-</div>
-
-<div>
-	<IconButton src='./code.svg' alt=''/>
-	<IconButton src='./http.svg' alt=''/>
-	<IconButton src='./open_in_browser.svg' alt=''/>
-</div>
+	<div>
+		<IconButton src='./arrow_forward.svg' alt=''/>
+		<ButtonOutlined>Forward</ButtonOutlined>
+		<IconButton src='./chat_bubble_outline.svg' alt=''/>
+		<Button>Save as</Button>
+		<IconButton src='./open_in_browser.svg' alt=''/>
+		<Button>Restart</Button>
+	</div>
+</section>
 
 
-<div>
-	<Button>Download</Button>
-	<Button>Reload</Button>
-	<Button>Restart</Button>
-</div>
 
 <style>
-	div {
+	section {
 		width: 97vw;
 		padding-left: 0.5vw;
 		padding-right: 0.5vw;
@@ -49,6 +47,14 @@
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		justify-content: space-around;
+		justify-content: space-evenly;
+	}
+	div {
+		width: fit-content;
+		height: fit-content;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
 	}
 </style>
