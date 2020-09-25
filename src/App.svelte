@@ -37,6 +37,66 @@
 </section>
 
 
+<section>
+	<div>
+		<IconButtonFlat src='./add.svg' alt=''/>
+		<Button>Play</Button>
+		<IconButton src='./chat.svg' alt=''/>
+		<ButtonFlat>Open</ButtonFlat>
+		<IconButton src='./code.svg' alt=''/>
+		<Button>Download</Button>
+	</div>
+
+	<div>
+		<IconButton src='./crop.svg' alt=''/>
+		<Button>Pause</Button>
+		<IconButton src='./chat_bubble.svg' alt=''/>
+		<Button>Save</Button>
+		<IconButtonOutlined src='./http.svg' alt=''/>
+		<Button>Reload</Button>
+	</div>
+
+	<div>
+		<IconButton src='./arrow_forward.svg' alt=''/>
+		<ButtonOutlined>Forward</ButtonOutlined>
+		<IconButton src='./chat_bubble_outline.svg' alt=''/>
+		<Button>Save as</Button>
+		<IconButton src='./open_in_browser.svg' alt=''/>
+		<Button>Restart</Button>
+	</div>
+</section>
+
+
+<section>
+	<div>
+		<IconButtonFlat src='./add.svg' alt=''/>
+		<Button>Play</Button>
+		<IconButton src='./chat.svg' alt=''/>
+		<ButtonFlat>Open</ButtonFlat>
+		<IconButton src='./code.svg' alt=''/>
+		<Button>Download</Button>
+	</div>
+
+	<div>
+		<IconButton src='./crop.svg' alt=''/>
+		<Button>Pause</Button>
+		<IconButton src='./chat_bubble.svg' alt=''/>
+		<Button>Save</Button>
+		<IconButtonOutlined src='./http.svg' alt=''/>
+		<Button>Reload</Button>
+	</div>
+
+	<div>
+		<IconButton src='./arrow_forward.svg' alt=''/>
+		<ButtonOutlined>Forward</ButtonOutlined>
+		<IconButton src='./chat_bubble_outline.svg' alt=''/>
+		<Button>Save as</Button>
+		<IconButton src='./open_in_browser.svg' alt=''/>
+		<Button>Restart</Button>
+	</div>
+</section>
+
+
 
 <style>
 	section {
