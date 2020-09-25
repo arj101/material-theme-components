@@ -4,8 +4,9 @@
 	function click(event) {
 		let ripple = document.createElement('div');
 		ripple.classList.add('ripple');
-		ripple.style.left = `${event.clientX - button.offsetLeft}px`;
-		ripple.style.top = `${event.clientY - button.offsetTop}px`;
+		let buttonBound = button.getBoundingClientRect();
+		ripple.style.left = `${event.clientX - buttonBound.left}px`;
+		ripple.style.top = `${event.clientY - buttonBound.top}px`;
 
 		const rippleAnimation = [
 			{ opacity: 1, width: '0px', height: '0px'},
@@ -29,6 +30,7 @@
 <button bind:this={button} on:mousedown={click}>
 	<slot></slot>
 </button>
+
 
 <style>
 	slot {
